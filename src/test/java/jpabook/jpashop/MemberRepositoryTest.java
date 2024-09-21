@@ -20,7 +20,7 @@ class MemberRepositoryTest {
     MemberRepository memberRepository;
 
     @Test
-    @DisplayName("")
+    @DisplayName("회원 생성 및 조회 테스트")
     @Transactional
     @Rollback(value = false)
     public void test() {
